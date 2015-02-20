@@ -3,13 +3,17 @@
 Os scripts que aqui se encontram tratam de uma reciclagem
 do conhecimento de Python que uso para pesquisa. Li a documentação
 há quase 10 anos, e desde então não fiz uma leitura cuidadosa do material
-básico, nem me atualizei para além dos casos triviais. As pastas correspondem aos itens abaixo.
+básico, nem me atualizei para além dos casos triviais.
 
 ## Python 3
-A pasta py3/ possui anotações de uma leitura de todo tutorial oficial da linguagem para atualizar do Python 3.
+A pasta py3/ possui anotações de uma leitura de todo tutorial oficial da linguagem (3.4.3rc1) para atualizar do Python 3.
 
-## Ipython
+## IPython
 A pasta ipy/ possui anotações de uma leitura do material básico sobre o ipython.
 
 ## Scipy
 a pasta spy/ possui anotações de uma visita aos recursos do Scipy.
+
+## Anotações sobre novos usos
+
+- Criação de módulos caprichados e bem documentados para as pesquisas, de forma que o código seja melhor reutilizável por mim e comunidade. Cuidados especiais: docstrings, erros corretos, anotações de uso, incertezas e ToDo. O detalhamento deve ser acompanhado da criação de uma documentação de forma automatizada, e.g. com o uso do Doxygen.
